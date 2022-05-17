@@ -1,0 +1,42 @@
+/**/
+*{
+  box-sizing:border-box;
+}
+/**/
+body{
+ background-color: rgb(160, 101, 214);
+ color: rgb(1, 19, 117); 
+}
+/**/
+.topnav{
+  background-color: rgb(244, 224, 247);
+  overflow: hidden;
+}
+/**/
+.topnav a{
+  color: rgb(124, 33, 184);
+  float: left;
+  display: block;
+  text-align: center; 
+  padding: 14px 16px;
+}
+
+/**/
+.topnav a:hover{
+  background-color:rgb(255, 255, 255); 
+}
+.header{
+  background-color: rgb(244, 224, 247);
+  padding: 20px;
+  text-align: center; 
+  color:rgb(155, 78, 228);
+}
+
+
+
+
+.column{
+  float: left;
+  width: 33.3%;
+  padding: 15px; 
+}

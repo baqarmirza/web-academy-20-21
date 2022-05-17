@@ -1,0 +1,63 @@
+/*The container <div> - needed to position the dropdown content*/
+.dropdown{
+  position: relative; 
+  display: inline-block; 
+} 
+/* dropdown content (hidden by default)*/
+.dropDownContent{
+  display: none; 
+  position: absolute; 
+  background-color: plum; 
+  min-width:150px; 
+  box-shadow:0px 8px 16px 0px rgba(128,0,128,0.9);
+  z-index:1; 
+  
+  /*this is used to display an element as an inline-level block container*/ 
+}
+.dropdown:hover .dropDownContent{
+  display:block;
+}
+/*used to decorate, resize, and style the drpmenu*/
+.drpMenu{
+  background-color: #F8C8DC;
+  color:  #AA336A; 
+  padding:16px; 
+  font-size:16px; 
+  boarder:none; 
+  cursor:pointer; 
+}
+.dropdown:hover .drpMenu{
+  background-color: #ADD8E6; 
+  color:black;
+}
+.dropdown a{
+  padding:12px 16px;
+  text-decoration:none; 
+  display: none; 
+}
+.dropdown:hover a{
+  display: block; 
+  background-color: #ADD8E6;
+  color:black;
+  border: 0.1px solid white;
+}
+/*makes it so that when we hover over the image, the caption is shown*/
+.dropdown:hover a:hover{
+  color:black; 
+  background-color: #F8C8DC; 
+  border:1px solid black; 
+  padding:12px 16px; 
+}
+/*coloring the image used in the page*/
+.dropdown img{
+  border:5px dotted #ADD8E6;
+}
+/*settings to display the captions and decorate the captions*/ 
+.caption{
+  display:none; 
+}
+.dropdown:hover .dropDownContent:hover .caption{
+  display: block;
+  color: #000000; 
+  background-color: #fadadd ;
+}

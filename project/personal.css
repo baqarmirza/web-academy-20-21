@@ -1,0 +1,9 @@
+body{
+ background-color: #a3baf0;
+ color: #1d0c9d; 
+}
+img{
+  width: 250px; 
+  height: 250px; 
+  border-style: double;
+}
